@@ -25,7 +25,7 @@ function attacheEvent() {
   emitter.on('search.SearchUi', function (val) {
     if (category.match(val)) {
       dmmItems.updateCategory(val);
-      fetch(json[val]);
+      jsonFetcher.fetch(json[val]);
     } else {
       console.log('not found');
     }
@@ -35,10 +35,6 @@ function attacheEvent() {
     dmmItems.set(data);
     dmmUi.render(dmmItems.get());
   });
-}
-
-function fetch(url) {
-  jsonFetcher.fetch(url);
 }
 
 init();
