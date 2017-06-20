@@ -4,5 +4,5 @@
 
 ```
 $ npm install
-$ nom run server
+$ npm run server
 ```
