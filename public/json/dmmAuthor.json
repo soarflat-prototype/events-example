@@ -1,0 +1,87 @@
+{
+  "request": {
+    "parameters": {
+      "api_id": "example",
+      "affiliate_id": "affiliate-990",
+      "initial": "う",
+      "floor_id": "27",
+      "hits": "10",
+      "output": "json"
+    }
+  },
+  "result": {
+    "status": "200",
+    "result_count": 10,
+    "total_count": "2500",
+    "first_position": 0,
+    "site_name": "DMM.com（一般）",
+    "site_code": "DMM.com",
+    "service_name": "通販",
+    "service_code": "mono",
+    "floor_id": "27",
+    "floor_name": "本・コミック",
+    "floor_code": "book",
+    "author": [
+      {
+        "author_id": "20085",
+        "name": "WIZ",
+        "ruby": "うぃず",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20085/devmarketing-990"
+      },
+      {
+        "author_id": "20337",
+        "name": "宇佐美渉",
+        "ruby": "うさみわたる",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20337/devmarketing-990"
+      },
+      {
+        "author_id": "20557",
+        "name": "嬉野めぐみ",
+        "ruby": "うれしのめぐみ",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20557/devmarketing-990"
+      },
+      {
+        "author_id": "20594",
+        "name": "宇井野りお",
+        "ruby": "ういのりお",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20594/devmarketing-990"
+      },
+      {
+        "author_id": "20657",
+        "name": "上原ひびき",
+        "ruby": "うえはらひびき",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20657/devmarketing-990"
+      },
+      {
+        "author_id": "20658",
+        "name": "上田毅八郎",
+        "ruby": "うえだきはちろう",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20658/devmarketing-990"
+      },
+      {
+        "author_id": "20659",
+        "name": "上田信",
+        "ruby": "うえだしん",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20659/devmarketing-990"
+      },
+      {
+        "author_id": "20809",
+        "name": "宇治敏彦",
+        "ruby": "うじとしひこ",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=20809/devmarketing-990"
+      },
+      {
+        "author_id": "21064",
+        "name": "上杉隼人",
+        "ruby": "うえすぎはやと",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=21064/devmarketing-990"
+      },
+      {
+        "author_id": "21067",
+        "name": "上野圭一",
+        "ruby": "うえのけいいち",
+        "list_url": "http://www.dmm.com/mono/book/-/list/=/article=author/id=21067/devmarketing-990"
+      }
+    ]
+  }
+}
